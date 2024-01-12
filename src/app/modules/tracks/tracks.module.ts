@@ -9,6 +9,8 @@ import { TracksRoutingModule } from './tracks-routing.module';
   imports: [
     CommonModule,
     TracksRoutingModule
+  ], exports: [
+    TracksRoutingModule
   ]
 })
 export class TracksModule { }
